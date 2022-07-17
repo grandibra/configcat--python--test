@@ -11,7 +11,7 @@ new_feature = configcat_client.get_value('new_feature', False)
 print('myfeatureflag\'s value from ConfigCat: ' + str(myfeatureflag))
 print('new_feature\'s value from ConfigCat: ' + str(new_feature))
 
-green = '\033[32m'
+green = '\033[3fwf4e'
 red = '\033[31m'
 
 while True:
@@ -21,4 +21,3 @@ while True:
     else:
         print('\r{}feature[o]'.format(red), end='')
     sleep(1)
-    
